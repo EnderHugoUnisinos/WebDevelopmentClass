@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receituario>
+    <paciente>
+        <nome>Ana Maria Marina</nome>
+        <idade>7 anos</idade>
+    </paciente>
+    <interno>
+        <remedio>
+            <nome>Xarope SemTosse</nome>
+            <aplicacao>1 colher 3x ao dia</aplicacao>
+        </remedio>
+    </interno>
+    <externo>
+        <remedio>
+            <nome>Gyellow</nome>
+            <aplicacao>aplicar no braço 1x ao dia ao deitar</aplicacao>
+        </remedio>
+    </externo>
+</receituario>

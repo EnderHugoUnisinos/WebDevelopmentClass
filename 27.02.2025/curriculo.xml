@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculo>
+    <nome>Ender Hugo Lima Couto</nome>
+    <idade>20 anos</idade>
+    <cursos>
+        <curso tipo="atual" ensino="superior">
+            <nome>Jogos Digitais</nome>
+            <periodo>5o Semestre</periodo>
+            <status>Cursando</status>
+        </curso>
+        <curso tipo="atual" ensino="superior">
+            <nome>Ciência da Computação</nome>
+            <periodo>2o Semestre</periodo>
+            <status>Cursando</status>
+        </curso>
+        <curso tipo="adicional" ensino="tecnico">
+            <nome>Técnico de informatica</nome>
+            <status>Concluido</status>
+        </curso>
+    </cursos>
+    <idiomas>
+        <idioma>
+            <nome>Português</nome>
+            <nivel>Materno</nivel>
+        </idioma>
+        <idioma>
+            <nome>Inglês</nome>
+            <nivel>Fluente</nivel>
+        </idioma>
+        <idioma>
+            <nome>Espanhol</nome>
+            <nivel>Básico</nivel>
+        </idioma>
+    </idiomas>
+</curriculo>
