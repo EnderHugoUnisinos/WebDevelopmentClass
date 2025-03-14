@@ -1,0 +1,59 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 2%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.messages {
+    margin: 2%;
+    line-height: 5px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    text-wrap:  nowrap;
+    text-overflow: ellipsis;
+}
+.user_a.name {
+    color: #00CCCC;
+}
+.user_b.name {
+    color: #cc00cc;
+}
+.user_c.name {
+    color: #FF9900;
+}
+
+.textbox {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+.textbox input[type=text]{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-left: 7%;
+    margin-right: 0px;
+    width: 70%;
+}
+.textbox input[type=button]{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    align-self: right;
+    margin-left: 1%;
+    margin-right: 7%;
+    width: 10%;
+}
