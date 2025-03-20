@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "type": "system_user",
+        "user": "Ender",
+        "color": "#00CCCC",
+        "message": "Has joined the chat."
+    },
+    {
+        "id": 1,
+        "type": "user",
+        "user": "Ender",
+        "color": "#00CCCC",
+        "message": "Hello World!"
+    },
+    {
+        "id": 2,
+        "type": "user",
+        "user": "Ender",
+        "color": "#00CCCC",
+        "message": "This chat reads off of a JSON file!"
+    },
+    {
+        "id": 3,
+        "type": "system_user",
+        "user": "Guest_01",
+        "color": "#cc00cc",
+        "message": "Has joined the chat."
+    },
+    {
+        "id": 4,
+        "type": "system_user",
+        "user": "Guest_02",
+        "color": "#FF9900",
+        "message": "Has joined the chat."
+    }
+]
