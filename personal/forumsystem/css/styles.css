@@ -1,9 +1,41 @@
 /**/
+html {
+    background-color: #FFF;
+}
+.container {
+    background-color: #EEE;
+    position: relative;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+/**/
 .header {
-    background-color: #DDD;
+    height: 100px;
+    background-color: #CCC;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.header div {
+    display: inline-block;
+}
+
+.header .img-container {
     height: 90px;
-    padding: 20px;
-    text-align: center;
+    width: 90px;
+}
+
+.header .img-container img {
+    height: 90px;
+    width: 90px;
+}
+
+.header .main-title {
+    position: absolute;
+    height: 90px;
+    margin: 1px;
+    top: 15px;
+    left: 40%;
 }
 
 /**/
@@ -27,6 +59,7 @@
     table-layout: fixed;
     width: 90%;
     border: 2px solid #000;
+    border-radius: 8px;
 }
 /*Forum header*/
 .forum-top {
@@ -80,6 +113,7 @@
 
 /**/
 .footer {
+    height: 25px;
     text-align: center;
     font-size: 10px;
 }
