@@ -1,4 +1,6 @@
 body {
+    min-height:100%;
+    position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -6,7 +8,7 @@ body {
 .background {
     position: absolute;
     width: 100%;
-    height: 120%;
+    height: 100%;
     z-index: -1;
 }
 
@@ -21,6 +23,8 @@ body {
 .background-bottom {
     background-color: #F0EBF8;
     height: 100%;
+    top: 0;
+    bottom: 0;
 }
 
 .container {
@@ -68,6 +72,7 @@ body {
 .form textarea {
     width: 300px;
     padding-top: 5px;
+    max-width: 900px;
 }
 .form input[type=date] {
     border: none;
@@ -97,16 +102,24 @@ body {
   width: 100px;
   text-transform: uppercase;
   background-color: #673AB7;
-  color: white;
+  color: #FFF;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #673AB7;
+}
+
+.form input[type=submit]:hover {
+    background-color: #FFF;
+    color: #673AB7;
+    border: 2px solid #673AB7;
 }
 
 .clear{
     clear: both;
 }
 .required {
-    color: #ff330f;
+    color: #D80835;
 }

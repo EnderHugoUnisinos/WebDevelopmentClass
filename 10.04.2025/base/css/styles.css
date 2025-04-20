@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 200px;
+}
+.flex {
+    display: flex;
+    background-color: #DDD;
+    margin-bottom: 20px;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC;
+    margin-bottom: 20px;
+}
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;   
+}
+.box {
+    height: 40px;
+    width: 33%;
+    border: 2px solid #F00;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.center .box {
+    width: 50px;
+}
+.space-around, .space-between, .end {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.space-around .box, .space-between .box, .end .box {
+    width: 50px;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+.end { 
+    justify-content: end;
+}
+.align-center, .flex-end, .stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid #00F;
+}
+.align-center .box, .flex-end .box, .stretch .box {
+    width: 50px;
+} 
+.align-center{
+    align-items: center;
+    justify-content: center;
+}
+.flex-end{
+    align-items: end;
+}
+.stretch{
+    align-items: stretch;
+    justify-content: stretch;
+}
+.stretch .box {
+    height: auto;
+}
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid #060;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.gap .box {
+    width: 32%;
+}
+.order {
+    display: flex;
+    margin-bottom: 20px;
+}
+#one {order: 1;}
+#two {order: 2;}
+#three {order: 3;}
+.grow{
+    display: flex;
+    flex-grow: 2;
+    margin-bottom: 20px;
+}
+.short{
+    display: flex;
+    margin-bottom: 20px;
+}
+.short .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+.short .different {
+    border: 2px solid #F00;
+    flex: 3 1 200px;
+}
+.auto-alignment {
+    
+}

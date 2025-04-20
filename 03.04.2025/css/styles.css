@@ -1,0 +1,15 @@
+h1 {
+    color: #F00;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: #00F;
+    }
+}
+@media screen and (orientation: portrait) {
+    h2 {
+        color: #0F0;
+    }
+}
+

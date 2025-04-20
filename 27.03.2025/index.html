@@ -24,7 +24,7 @@
                     <p>Descreva as caracteristicas e escolhas opcionais que seu veiculo possui</p>
                 </div>
                 <div class="form-body">
-                    <form action="/enviar/formulario.php" method="POST">
+                    <form action="">
                         <div>
                             <label for="title">Titulo do anúncio<span class="required">*</span></label>
                             <br>
@@ -71,38 +71,38 @@
                             </div>
                         </div>
                         <div>
-                            <label for="optionals">Opcionais</label>
+                            <label for="optionals[]">Opcionais</label>
                             <div class="radio-col">
                                 <div>
-                                    <input type="checkbox" name="airbag">
+                                    <input type="checkbox" id="airbag" value="airbag" name="optionals[]">
                                     <label for="airbag">Airbag</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="ac">
+                                    <input type="checkbox" id="ac" value="ac" name="optionals[]">
                                     <label for="ac">Ar Condicionado</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="assistant">
+                                    <input type="checkbox" id="assistant" value="assistant" name="optionals[]">
                                     <label for="assistant">Assistente de Pista</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="integration">
+                                    <input type="checkbox" id="integration" value="integration" name="optionals[]">
                                     <label for="integration">Integração com o Celular</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="alarm">
+                                    <input type="checkbox" id="alarm" value="alarm" name="optionals[]">
                                     <label for="alarm">Alarme</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="reverse">
+                                    <input type="checkbox" id="reverse" value="reverse" name="optionals[]">
                                     <label for="reverse">Câmera de Ré</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="keyless">
+                                    <input type="checkbox" id="keyless" value="keyless" name="optionals[]">
                                     <label for="keyless">Partida Keyless</label>
                                 </div>
                                 <div>
-                                    <input type="checkbox" name="leather" >
+                                    <input type="checkbox" id="leather" value="leather" name="optionals[]">
                                     <label for="leather">Bancos de couro</label>
                                 </div>
                             </div>
