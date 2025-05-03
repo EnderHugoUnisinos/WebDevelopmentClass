@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 30px 200px 30px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #CCC;
+}
+
+header a {
+    text-decoration: none;
+    color: #444;
+    margin: 10px;
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+main {
+    max-width: 100%;
+    padding: 30px 200px 30px 200px;
+    display: flex;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+figure img {
+    max-width: 95%;
+}
+
+figcaption {
+    font-size: 32px;
+    font-weight: bold;
+    color: #444;
+    padding: 10px 0px;
+}
+
+.article-text {
+    max-width: 95%;
+    margin-bottom: 10px;
+}
+.article-writer {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+article a {
+    text-decoration: none;
+    color: #444;
+}
+
+aside {
+    width: 800px;
+}
+
+.search, .categories, .tags {
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.search .inputs {
+    display: flex;
+    border: 1px solid #CCC ;
+}
+.search input {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+}
+.search button {
+    color: #FFF;
+    float: right;
+    padding: 9px;
+    background: #37a1f7;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.categories ul {
+    list-style: none;
+}
+ul li {
+    margin: 20px 0px;
+}
+li a {
+    text-decoration: none;
+    color: #444;
+}
+
+.tags a {
+    background-color: #ddd;
+    margin-right: 5px;
+    line-height: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    color: #222;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 2px solid #CCC;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+footer p {
+    margin: 5px;
+}
