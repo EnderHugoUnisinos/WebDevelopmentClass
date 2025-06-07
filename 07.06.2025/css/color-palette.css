@@ -1,0 +1,25 @@
+/* Paleta de cores do website */
+:root {
+    /*Cores primarias*/
+    --primary : #6449cf;
+    --primary-shade : #5637aa;
+    --primary-tint : #7557eb;
+    
+    /*Cores secundarias*/
+    --secondary : #48CF4B;
+    --secondary-shade : #080;
+    --secondary-tint : #2F2;
+    
+    /*Cores terciarias*/
+    --tertiary : #CF8448;
+    --tertiary-shade : #A46939;
+    --tertiary-tint : #F29244;
+    
+    /*Cores claras e escuras*/
+    --light: #723747;
+    --light-contrast: #d8b4a4;
+    --dark: #622032;
+    --dark-contrast: #fff;
+
+    --background: #100f14;
+}

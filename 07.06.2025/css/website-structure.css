@@ -1,0 +1,31 @@
+/* Reseta formatação padrão do site */
+* { padding: 0; margin: 0;}
+
+/* Gostaria de ter usado bootstrap, mas a fim de manter o espirito do trabalho, montei uma estrutura padrão */
+
+/* Classe flex */
+.flex {
+    display: flex;
+}
+
+/* Colunas */
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {flex-direction: column;}
+.col-1 {flex:1}
+.col-2 {flex:2}
+.col-3 {flex:3}
+.col-4 {flex:4}
+.col-5 {flex:5}
+.col-6 {flex:6}
+.col-7 {flex:7}
+.col-8 {flex:8}
+.col-9 {flex:9}
+.col-10 {flex: 10;}
+.col-11 {flex: 11;}
+.col-12 {flex: 12;}
+
+/* Linhas */
+.row {flex-direction: row;}
+
+/*Classes uteis*/
+.align-center {align-items: center;}
+.justify-center {justify-content: center;}
