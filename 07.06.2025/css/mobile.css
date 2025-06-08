@@ -1,3 +1,4 @@
+/*Mudanças no modo mobile*/
 @media screen and (max-width: 479px) {
     .background {padding: 0}
     .general-container {border-radius: 0;}
@@ -11,4 +12,8 @@
 
     /*Esconder classes*/
     .hide-mobile {display: none;}
+
+    .content-container {padding: 5px 0;}
+    .publication {border-radius: 0;}
+    .publication a {padding: 0 3px;}
 }

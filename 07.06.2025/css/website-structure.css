@@ -1,7 +1,7 @@
+/* Gostaria de ter usado bootstrap, mas a fim de manter o espirito do trabalho, montei uma estrutura padrão */
+
 /* Reseta formatação padrão do site */
 * { padding: 0; margin: 0;}
-
-/* Gostaria de ter usado bootstrap, mas a fim de manter o espirito do trabalho, montei uma estrutura padrão */
 
 /* Classe flex */
 .flex {
@@ -29,3 +29,10 @@
 /*Classes uteis*/
 .align-center {align-items: center;}
 .justify-center {justify-content: center;}
+
+.left {text-align: left;}
+.right {text-align: right;}
+
+.button-primary {background-color: var(--primary); cursor: pointer; color: var(--dark-contrast);}
+.button-primary:hover {background-color: var(--primary-tint);}
+.button-primary:active {background-color: var(--primary-shade);}

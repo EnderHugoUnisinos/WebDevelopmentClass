@@ -2,6 +2,7 @@
     /*Fonte padrão do website*/
     font-family: Arial, Helvetica, sans-serif;
 }
+i {color: var(--dark-contrast);}
 /*Fundo do website*/
 .background {padding: 25px 20%; max-width: 100%; background-color: var(--background);}
 /*Container geral*/
@@ -18,7 +19,6 @@
 .profile-name {color: var(--dark-contrast);}
 .contact a {
     color: var(--dark-contrast);
-    background-color: var(--primary);
     padding: 7px;
     margin: 10px;
     font-size: 14px;
@@ -26,8 +26,6 @@
     cursor: pointer;
     text-decoration: none;
 }
-.contact a:hover {background-color: var(--primary-tint);}
-.contact a:active {background-color: var(--primary-shade);}
 /*Navbar*/
 .navbar {
     /*variavel local*/
@@ -51,3 +49,12 @@
 }
 .navbar a:hover {border-bottom: 3px solid var(--primary);}
 .navbar a:active {background-color: var(--light);}
+/*Publicações / Entradas no portfolio*/
+.content-container {padding: 10px 40px;}
+
+.publication {background-color: var(--light); border-radius: 5px; padding: 5px; margin-top: 10px; margin-bottom: 5px;}
+.publication figure {}
+.publication img {max-width: 100%;}
+.publication figcaption {color: var(--light-contrast); font-size: 12px;}
+.publication a {text-decoration: none; padding: 0 5px; border-radius: 10px; font-size: 12px; margin-left: 10px;}
+.publication p {color: var(--dark-contrast);}
