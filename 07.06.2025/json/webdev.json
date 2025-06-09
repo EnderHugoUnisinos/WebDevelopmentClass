@@ -1,0 +1,50 @@
+[
+    {
+        "date":"01.05.2025",
+        "image": "webdev_7.png",
+        "description": "Um blog utilizando tags semanticas como main, aside e header.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/01.05.2025"
+    },
+    {
+        "date":"20.04.2025",
+        "image": "webdev_6.png",
+        "description": "Um card responsivo contendo nome, sobrenome, uma imagem e dois botões.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/20.04.2025"
+    },
+    {
+        "date":"10.04.2025",
+        "image": "webdev_5.png",
+        "description": "Um website mock imitando o estilo da pagina de login do Instagram.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/10.04.2025"
+    },
+    {
+        "date":"03.04.2025",
+        "image": "webdev_4.png",
+        "description": "Uma demonstração pratica de @media css.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/03.04.2025"
+    },
+    {
+        "date":"27.03.2025",
+        "image": "webdev_3.png",
+        "description": "Um formulario de cadastro para venda de carros.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/27.03.2025"
+    },
+    {
+        "date":"20.04.2025",
+        "image": "webdev_2.png",
+        "description": "Um website informacional sobre a banda 'The acacia strain'.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/20.04.2025"
+    },
+    {
+        "date":"13.03.2025",
+        "image": "webdev_1.png",
+        "description": "Demonstração de estilos e css.",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/13.03.2025"
+    },
+    {
+        "date":"06.03.2025",
+        "image": "webdev_0.png",
+        "description": "Demonstração de hmtl basico. ",
+        "repo": "https://github.com/EnderHugoUnisinos/WebDevelopmentClass/tree/main/06.03.2025"
+    }
+]

@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mobile.css">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="icon" type="image/x-icon" href="img/favicon.svg">
+    <script src="js/contentload.js" defer></script>
 </head>
 <body>
     <!--Estrutura inspirada no tumblr-->
@@ -19,7 +20,7 @@
     <div class="background">
         <div class="general-container">
             <header class="banner-container flex col-1 align-center">
-                <img src="img/banner.png" alt="" class="banner-image">
+                <div class="banner-image"><img src="img/banner.png" alt=""></div>
                 <img src="img/profile-picture.jpg" alt="" class="profile-picture">
                 <h1 class="profile-name">Ender Hugo</h1>
                 <div class="flex row contact">
@@ -32,7 +33,10 @@
                     <div class="col-1"><a href="">Modelagem 3D</a></div>
                 </nav>
             </header>
-            <main class="content-container col-1 flex">
+            <main id="content-loader" class="content-container col-1 flex">
+                <!--Se não estiver usando um servidor local gerará um erro de CORS-->
+                <!--Para carregar o conteúdo de forma manual, retire os comentarios a partir dessa linha-->
+                <!--
                 <div class="publication">
                     <figure>
                         <div class="row"><img src="img/webdev_7.png" alt=""></div>
@@ -113,6 +117,7 @@
                     </figure>
                     <div class="row"><p>...</p></div>
                 </div>
+                -->
             </main>
             <footer>
 
